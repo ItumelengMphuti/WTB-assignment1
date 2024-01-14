@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
 * {
     margin: 0;
+    
+}
+body {
+    background-color: #f7d2d2;
+    padding: 20px;
 }
 
-
 header {
-    background-color: #f5c2c2; 
-    
+    background-color: whitesmoke;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
 }
 
 ul {
@@ -23,15 +31,91 @@ ul {
 
 li {
     margin-right: 150px; 
+    font-size: x-large;
+    font-family: 'Rubik', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: #333; 
+    color: rgb(224, 131, 224);
     font-weight: bold;
+}
+a:hover {
+    color: #f5c2c2;
 }
 
 img {
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #f5c2c2;
+
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(224, 131, 224);
+}
+
+
+#about-us {
+    background-color: #f5c2c2;
+    width: fit-content;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#about-us:hover {
+
+}
+
+
+footer {
+    background-color: #f5c2c2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+footer p {
+    margin: 0; 
+    font-size: 14px; 
 }
